@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="Unit tests for sftp">
+    <webMethodsTestCase description="Read all files, do not validate result" name="readFileList">
+        <service folder="com.dachser" name="readFileList">
+            <input>
+                <file filename="test/com_dachser_readFileList_input.xml"/>
+            </input>
+            <expected>
+                <file filename="test/com_dachser_readFileList_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Read all files, sort list and validate result" name="readFileListSort">
+        <service folder="com.dachser.test" name="readFileListSort">
+            <input>
+                <file filename="test/com_dachser_readFileListSort_input.xml"/>
+            </input>
+            <expected>
+                <file filename="test/com_dachser_readFileListSort_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Get one file" name="getFile">
+        <service folder="com.dachser" name="getFile">
+            <input>
+                <file filename="test/com_dachser_getFile_input.xml"/>
+            </input>
+            <expected>
+                <file filename="test/com_dachser_getFile_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Move one file" name="moveFile">
+        <service folder="com.dachser" name="moveFile">
+            <input>
+                <file filename="test/com_dachser_moveFile_input.xml"/>
+            </input>
+            <expected>
+                <file filename="test/com_dachser_moveFile_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Read all files again, do not validate result" name="readFileList">
+        <service folder="com.dachser" name="readFileList">
+            <input>
+                <file filename="test/com_dachser_readFileListShorter_input.xml"/>
+            </input>
+            <expected>
+                <file filename="test/com_dachser_readFileListShorter_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Read all files again, sort list and validate result, expect shorter list" name="readFileListSort">
+        <service folder="com.dachser.test" name="readFileListSort">
+            <input>
+                <file filename="test/com_dachser_readFileListSortShorter_input.xml"/>
+            </input>
+            <expected>
+                <file filename="test/com_dachser_readFileListSortShorter_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Get one file again, expect exception (file moved)" name="getFile">
+        <service folder="com.dachser" name="getFile">
+            <input>
+                <file filename="test/com_dachser_getFile_input.xml"/>
+            </input>
+            <expected>
+                <exception class="com.wm.lang.flow.FlowException" message="Get file not successful. returnCode,returnMsg,remoteFile:2,Error while executing command 'get': No such file,/Indra/albaran_virtual/pendientes/2Ccode_panda_23456789012bra2024-12-27_234N_issue_.jpg"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Revert test execution" name="moveFileBack">
+        <service folder="com.dachser.test" name="moveFileBack">
+            <input>
+                <file filename="test/com_dachser_moveFileBack_input.xml"/>
+            </input>
+            <expected>
+                <file filename="test/com_dachser_moveFileBack_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

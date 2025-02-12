@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="dirList" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">.</value>
+        <value name="fileSize">4096</value>
+        <value name="permissions">drwxr-xr-x</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">..</value>
+        <value name="fileSize">4096</value>
+        <value name="permissions">drwxr-xr-x</value>
+        <value name="uid">0</value>
+        <value name="gid">0</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">2Ccode_panda_23456789012bra2024-12-27_234N_issue_.jpg</value>
+        <value name="fileSize">7182</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">2Cdeer_67890123456789012bra2024-12-27_234N_issue_serial_890.png</value>
+        <value name="fileSize">6026</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">2Cdog_567890code_dog_0123456789012bra2024-12-27_234N_issue_serial_890.jpg</value>
+        <value name="fileSize">6890</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">2Scode_parrots_4567890bra2024-12-27_234N_issue_.jpg</value>
+        <value name="fileSize">7127</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">2Ssheep_7890code_sheep_234567890bra2024-12-27_234N_issue_serial_890.jpg</value>
+        <value name="fileSize">5828</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">5Ccat_567890code_cat_0123456789012bra2024-12-27_234N_issue_serial_890.jpg</value>
+        <value name="fileSize">4788</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">5Ccode_lion_123456789012bra2024-12-27_234N_issue_.jpg</value>
+        <value name="fileSize">9294</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">5Scode_bird_1234567890bra2024-12-27_234N_issue_.jpg</value>
+        <value name="fileSize">7092</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">5Stiger_7890code_tiger_234567890bra2024-12-27_234N_issue_serial_890.jpg</value>
+        <value name="fileSize">10536</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">5Xcow_567890123456789012bra2024-12-27_234N_issue_serial_890.jpg</value>
+        <value name="fileSize">12742</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">7Scamel_789012345678902Scode_parrots_4567890bra2024-12-27_234N_issue_.jpg</value>
+        <value name="fileSize">7143</value>
+        <value name="permissions">-rw-r--r--</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">BACKUP</value>
+        <value name="fileSize">4096</value>
+        <value name="permissions">drwxr-xr-x</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">KO</value>
+        <value name="fileSize">4096</value>
+        <value name="permissions">drwxr-xr-x</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">NODOCUMENTADA</value>
+        <value name="fileSize">4096</value>
+        <value name="permissions">drwxr-xr-x</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="fileName">OK</value>
+        <value name="fileSize">4096</value>
+        <value name="permissions">drwxr-xr-x</value>
+        <value name="uid">1000</value>
+        <value name="gid">100</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>

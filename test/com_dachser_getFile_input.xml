@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <value name="uuid">abc123</value>
+    <value name="filename">2Ccode_panda_23456789012bra2024-12-27_234N_issue_.jpg</value>
+  </record>
+</IDataXMLCoder>
