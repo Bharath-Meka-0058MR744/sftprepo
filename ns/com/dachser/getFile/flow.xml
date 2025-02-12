@@ -1575,11 +1575,20 @@
 </DATA>
 </MAPSET>
 
+<MAPCOPY FROM="/serverHost;1;0" TO="/sftpConfigurationParameters;2;0/serverHost;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/userName;1;0" TO="/sftpConfigurationParameters;2;0/userName;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/password;1;0" TO="/sftpConfigurationParameters;2;0/password;1;0">
+</MAPCOPY>
+
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/sftpConfigurationParameters;2;0/sftpClientVersion;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">version2</value>
+  <value name="xml">version1</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>
     <value name="node_subtype">unknown</value>
@@ -1598,15 +1607,6 @@
 </Values>
 </DATA>
 </MAPSET>
-
-<MAPCOPY FROM="/serverHost;1;0" TO="/sftpConfigurationParameters;2;0/serverHost;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/userName;1;0" TO="/sftpConfigurationParameters;2;0/userName;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/password;1;0" TO="/sftpConfigurationParameters;2;0/password;1;0">
-</MAPCOPY>
 </MAP>
 
 <MAP MODE="OUTPUT">
